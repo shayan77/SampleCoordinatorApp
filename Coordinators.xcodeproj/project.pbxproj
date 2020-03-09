@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		838423A0241687AE00BF21A0 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8384239F241687AE00BF21A0 /* RequestManager.swift */; };
+		838423A2241687B700BF21A0 /* Modelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838423A1241687B700BF21A0 /* Modelable.swift */; };
+		838423A4241687C100BF21A0 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838423A3241687C100BF21A0 /* Results.swift */; };
+		838423A6241687FC00BF21A0 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838423A5241687FC00BF21A0 /* Flight.swift */; };
+		838423A92416881600BF21A0 /* FlightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838423A82416881600BF21A0 /* FlightService.swift */; };
 		F3A0AFBE24163F8700820395 /* Bill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A0AFBD24163F8700820395 /* Bill.storyboard */; };
 		F3A0AFC024163F9200820395 /* Bus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A0AFBF24163F9200820395 /* Bus.storyboard */; };
 		F3A0AFC224163FA300820395 /* Flight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A0AFC124163FA300820395 /* Flight.storyboard */; };
@@ -30,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8384239F241687AE00BF21A0 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		838423A1241687B700BF21A0 /* Modelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelable.swift; sourceTree = "<group>"; };
+		838423A3241687C100BF21A0 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		838423A5241687FC00BF21A0 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flight.swift; path = Coordinators/Networking/Flight.swift; sourceTree = SOURCE_ROOT; };
+		838423A82416881600BF21A0 /* FlightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightService.swift; sourceTree = "<group>"; };
 		F3A0AFBD24163F8700820395 /* Bill.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bill.storyboard; sourceTree = "<group>"; };
 		F3A0AFBF24163F9200820395 /* Bus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bus.storyboard; sourceTree = "<group>"; };
 		F3A0AFC124163FA300820395 /* Flight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flight.storyboard; sourceTree = "<group>"; };
@@ -65,9 +75,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8384239E2416879B00BF21A0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8384239F241687AE00BF21A0 /* RequestManager.swift */,
+				838423A1241687B700BF21A0 /* Modelable.swift */,
+				838423A3241687C100BF21A0 /* Results.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		838423A72416880700BF21A0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				838423A82416881600BF21A0 /* FlightService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		F3A0AFB524163EF300820395 /* FlightScene */ = {
 			isa = PBXGroup;
 			children = (
+				838423A72416880700BF21A0 /* Service */,
 				F3A0AFCE241641B100820395 /* FlightCordinator */,
 				F3A0AFCA2416418100820395 /* ViewModel */,
 				F3A0AFC92416418100820395 /* Model */,
@@ -193,6 +222,7 @@
 		F3A0AFC92416418100820395 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				838423A5241687FC00BF21A0 /* Flight.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,6 +322,7 @@
 		F3C15A6324137E060035AF70 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				8384239E2416879B00BF21A0 /* Networking */,
 				F3A0AFD2241641E100820395 /* Scenes */,
 				F3A0AFBC24163F6600820395 /* Helpers */,
 				F3A0AFBB24163F4500820395 /* Maincordinator */,
@@ -375,13 +406,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838423A0241687AE00BF21A0 /* RequestManager.swift in Sources */,
 				F3C15A6924137E060035AF70 /* HomeVC.swift in Sources */,
 				F3FF42AD24164E2C006E091C /* BusVC.swift in Sources */,
 				F3FF42AB24164E17006E091C /* BillVC.swift in Sources */,
 				F3FF42B524165306006E091C /* BillCoordinator.swift in Sources */,
+				838423A4241687C100BF21A0 /* Results.swift in Sources */,
+				838423A92416881600BF21A0 /* FlightService.swift in Sources */,
 				F3C15A6524137E060035AF70 /* AppDelegate.swift in Sources */,
 				F3A0AFD42416424700820395 /* AppCoordinator.swift in Sources */,
 				F3FF42A92416489C006E091C /* StoryboardNames.swift in Sources */,
+				838423A6241687FC00BF21A0 /* Flight.swift in Sources */,
 				F3FF42B924165538006E091C /* FlightDetailViewModel.swift in Sources */,
 				F3FF42B124165002006E091C /* FlightCoordinator.swift in Sources */,
 				F3FF42B424165303006E091C /* BusCoordinator.swift in Sources */,
@@ -389,6 +424,7 @@
 				F3C15A7B241381330035AF70 /* ViewContollerLoadable.swift in Sources */,
 				F3FF42B7241654E3006E091C /* FlightDetailVC.swift in Sources */,
 				F3FF42AF24164E3E006E091C /* FlightVC.swift in Sources */,
+				838423A2241687B700BF21A0 /* Modelable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 674HNU4UMD;
 				INFOPLIST_FILE = "$(SRCROOT)/Coordinators/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -552,7 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 674HNU4UMD;
 				INFOPLIST_FILE = "$(SRCROOT)/Coordinators/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
