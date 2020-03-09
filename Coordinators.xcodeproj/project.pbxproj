@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3A0AFBE24163F8700820395 /* Bill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A0AFBD24163F8700820395 /* Bill.storyboard */; };
+		F3A0AFC024163F9200820395 /* Bus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A0AFBF24163F9200820395 /* Bus.storyboard */; };
+		F3A0AFC224163FA300820395 /* Flight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A0AFC124163FA300820395 /* Flight.storyboard */; };
+		F3A0AFD42416424700820395 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0AFD32416424700820395 /* AppCoordinator.swift */; };
 		F3C15A6524137E060035AF70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C15A6424137E060035AF70 /* AppDelegate.swift */; };
-		F3C15A6724137E060035AF70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C15A6624137E060035AF70 /* SceneDelegate.swift */; };
-		F3C15A6924137E060035AF70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C15A6824137E060035AF70 /* ViewController.swift */; };
-		F3C15A6C24137E060035AF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C15A6A24137E060035AF70 /* Main.storyboard */; };
+		F3C15A6924137E060035AF70 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C15A6824137E060035AF70 /* HomeVC.swift */; };
+		F3C15A6C24137E060035AF70 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C15A6A24137E060035AF70 /* Home.storyboard */; };
 		F3C15A6E24137E080035AF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C15A6D24137E080035AF70 /* Assets.xcassets */; };
 		F3C15A7124137E080035AF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C15A6F24137E080035AF70 /* LaunchScreen.storyboard */; };
+		F3C15A79241380B10035AF70 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C15A78241380B10035AF70 /* Coordinator.swift */; };
+		F3C15A7B241381330035AF70 /* ViewContollerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C15A7A241381330035AF70 /* ViewContollerLoadable.swift */; };
+		F3FF42A92416489C006E091C /* StoryboardNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42A82416489C006E091C /* StoryboardNames.swift */; };
+		F3FF42AB24164E17006E091C /* BillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42AA24164E17006E091C /* BillVC.swift */; };
+		F3FF42AD24164E2C006E091C /* BusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42AC24164E2C006E091C /* BusVC.swift */; };
+		F3FF42AF24164E3E006E091C /* FlightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42AE24164E3E006E091C /* FlightVC.swift */; };
+		F3FF42B124165002006E091C /* FlightCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42B024165002006E091C /* FlightCoordinator.swift */; };
+		F3FF42B424165303006E091C /* BusCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42B224165252006E091C /* BusCoordinator.swift */; };
+		F3FF42B524165306006E091C /* BillCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42B324165256006E091C /* BillCoordinator.swift */; };
+		F3FF42B7241654E3006E091C /* FlightDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42B6241654E3006E091C /* FlightDetailVC.swift */; };
+		F3FF42B924165538006E091C /* FlightDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF42B824165538006E091C /* FlightDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3A0AFBD24163F8700820395 /* Bill.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bill.storyboard; sourceTree = "<group>"; };
+		F3A0AFBF24163F9200820395 /* Bus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Bus.storyboard; sourceTree = "<group>"; };
+		F3A0AFC124163FA300820395 /* Flight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flight.storyboard; sourceTree = "<group>"; };
+		F3A0AFD32416424700820395 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F3C15A6124137E060035AF70 /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C15A6424137E060035AF70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3C15A6624137E060035AF70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3C15A6824137E060035AF70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3C15A6B24137E060035AF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C15A6824137E060035AF70 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F3C15A6B24137E060035AF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		F3C15A6D24137E080035AF70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C15A7024137E080035AF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3C15A7224137E080035AF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C15A78241380B10035AF70 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F3C15A7A241381330035AF70 /* ViewContollerLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContollerLoadable.swift; sourceTree = "<group>"; };
+		F3FF42A82416489C006E091C /* StoryboardNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardNames.swift; sourceTree = "<group>"; };
+		F3FF42AA24164E17006E091C /* BillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillVC.swift; sourceTree = "<group>"; };
+		F3FF42AC24164E2C006E091C /* BusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusVC.swift; sourceTree = "<group>"; };
+		F3FF42AE24164E3E006E091C /* FlightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightVC.swift; sourceTree = "<group>"; };
+		F3FF42B024165002006E091C /* FlightCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCoordinator.swift; sourceTree = "<group>"; };
+		F3FF42B224165252006E091C /* BusCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusCoordinator.swift; sourceTree = "<group>"; };
+		F3FF42B324165256006E091C /* BillCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCoordinator.swift; sourceTree = "<group>"; };
+		F3FF42B6241654E3006E091C /* FlightDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailVC.swift; sourceTree = "<group>"; };
+		F3FF42B824165538006E091C /* FlightDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,214 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3A0AFB524163EF300820395 /* FlightScene */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFCE241641B100820395 /* FlightCordinator */,
+				F3A0AFCA2416418100820395 /* ViewModel */,
+				F3A0AFC92416418100820395 /* Model */,
+				F3A0AFCB2416418100820395 /* View */,
+			);
+			path = FlightScene;
+			sourceTree = "<group>";
+		};
+		F3A0AFB624163EFC00820395 /* BusScene */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFCD241641A300820395 /* BusCoordinator */,
+				F3A0AFC62416417E00820395 /* ViewModel */,
+				F3A0AFC72416417E00820395 /* Model */,
+				F3A0AFC82416417E00820395 /* View */,
+			);
+			path = BusScene;
+			sourceTree = "<group>";
+		};
+		F3A0AFB724163F0400820395 /* BillScene */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFCC2416419600820395 /* BillCoordinator */,
+				F3A0AFC52416417800820395 /* ViewModel */,
+				F3A0AFC42416417400820395 /* Model */,
+				F3A0AFC32416416F00820395 /* View */,
+			);
+			path = BillScene;
+			sourceTree = "<group>";
+		};
+		F3A0AFB824163F0F00820395 /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFD1241641C800820395 /* ViewModel */,
+				F3A0AFD0241641C300820395 /* Model */,
+				F3A0AFCF241641BE00820395 /* View */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		F3A0AFB924163F1B00820395 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F3C15A6424137E060035AF70 /* AppDelegate.swift */,
+				F3C15A6F24137E080035AF70 /* LaunchScreen.storyboard */,
+				F3C15A7224137E080035AF70 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F3A0AFBA24163F3200820395 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3C15A6D24137E080035AF70 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3A0AFBB24163F4500820395 /* Maincordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFD32416424700820395 /* AppCoordinator.swift */,
+			);
+			path = Maincordinator;
+			sourceTree = "<group>";
+		};
+		F3A0AFBC24163F6600820395 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F3C15A78241380B10035AF70 /* Coordinator.swift */,
+				F3C15A7A241381330035AF70 /* ViewContollerLoadable.swift */,
+				F3FF42A82416489C006E091C /* StoryboardNames.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F3A0AFC32416416F00820395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFBD24163F8700820395 /* Bill.storyboard */,
+				F3FF42AA24164E17006E091C /* BillVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0AFC42416417400820395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0AFC52416417800820395 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0AFC62416417E00820395 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0AFC72416417E00820395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0AFC82416417E00820395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFBF24163F9200820395 /* Bus.storyboard */,
+				F3FF42AC24164E2C006E091C /* BusVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0AFC92416418100820395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0AFCA2416418100820395 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F3FF42B824165538006E091C /* FlightDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0AFCB2416418100820395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFC124163FA300820395 /* Flight.storyboard */,
+				F3FF42AE24164E3E006E091C /* FlightVC.swift */,
+				F3FF42B6241654E3006E091C /* FlightDetailVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0AFCC2416419600820395 /* BillCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F3FF42B324165256006E091C /* BillCoordinator.swift */,
+			);
+			path = BillCoordinator;
+			sourceTree = "<group>";
+		};
+		F3A0AFCD241641A300820395 /* BusCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F3FF42B224165252006E091C /* BusCoordinator.swift */,
+			);
+			path = BusCoordinator;
+			sourceTree = "<group>";
+		};
+		F3A0AFCE241641B100820395 /* FlightCordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F3FF42B024165002006E091C /* FlightCoordinator.swift */,
+			);
+			path = FlightCordinator;
+			sourceTree = "<group>";
+		};
+		F3A0AFCF241641BE00820395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3C15A6824137E060035AF70 /* HomeVC.swift */,
+				F3C15A6A24137E060035AF70 /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0AFD0241641C300820395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0AFD1241641C800820395 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0AFD2241641E100820395 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0AFB824163F0F00820395 /* HomeScene */,
+				F3A0AFB524163EF300820395 /* FlightScene */,
+				F3A0AFB624163EFC00820395 /* BusScene */,
+				F3A0AFB724163F0400820395 /* BillScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		F3C15A5824137E060035AF70 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +292,11 @@
 		F3C15A6324137E060035AF70 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				F3C15A6424137E060035AF70 /* AppDelegate.swift */,
-				F3C15A6624137E060035AF70 /* SceneDelegate.swift */,
-				F3C15A6824137E060035AF70 /* ViewController.swift */,
-				F3C15A6A24137E060035AF70 /* Main.storyboard */,
-				F3C15A6D24137E080035AF70 /* Assets.xcassets */,
-				F3C15A6F24137E080035AF70 /* LaunchScreen.storyboard */,
-				F3C15A7224137E080035AF70 /* Info.plist */,
+				F3A0AFD2241641E100820395 /* Scenes */,
+				F3A0AFBC24163F6600820395 /* Helpers */,
+				F3A0AFBB24163F4500820395 /* Maincordinator */,
+				F3A0AFBA24163F3200820395 /* Resources */,
+				F3A0AFB924163F1B00820395 /* Support */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -126,8 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C15A7124137E080035AF70 /* LaunchScreen.storyboard in Resources */,
+				F3A0AFBE24163F8700820395 /* Bill.storyboard in Resources */,
+				F3A0AFC224163FA300820395 /* Flight.storyboard in Resources */,
+				F3A0AFC024163F9200820395 /* Bus.storyboard in Resources */,
 				F3C15A6E24137E080035AF70 /* Assets.xcassets in Resources */,
-				F3C15A6C24137E060035AF70 /* Main.storyboard in Resources */,
+				F3C15A6C24137E060035AF70 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +375,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C15A6924137E060035AF70 /* ViewController.swift in Sources */,
+				F3C15A6924137E060035AF70 /* HomeVC.swift in Sources */,
+				F3FF42AD24164E2C006E091C /* BusVC.swift in Sources */,
+				F3FF42AB24164E17006E091C /* BillVC.swift in Sources */,
+				F3FF42B524165306006E091C /* BillCoordinator.swift in Sources */,
 				F3C15A6524137E060035AF70 /* AppDelegate.swift in Sources */,
-				F3C15A6724137E060035AF70 /* SceneDelegate.swift in Sources */,
+				F3A0AFD42416424700820395 /* AppCoordinator.swift in Sources */,
+				F3FF42A92416489C006E091C /* StoryboardNames.swift in Sources */,
+				F3FF42B924165538006E091C /* FlightDetailViewModel.swift in Sources */,
+				F3FF42B124165002006E091C /* FlightCoordinator.swift in Sources */,
+				F3FF42B424165303006E091C /* BusCoordinator.swift in Sources */,
+				F3C15A79241380B10035AF70 /* Coordinator.swift in Sources */,
+				F3C15A7B241381330035AF70 /* ViewContollerLoadable.swift in Sources */,
+				F3FF42B7241654E3006E091C /* FlightDetailVC.swift in Sources */,
+				F3FF42AF24164E3E006E091C /* FlightVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3C15A6A24137E060035AF70 /* Main.storyboard */ = {
+		F3C15A6A24137E060035AF70 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F3C15A6B24137E060035AF70 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		F3C15A6F24137E080035AF70 /* LaunchScreen.storyboard */ = {
@@ -286,7 +534,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9H5P3R5C2;
-				INFOPLIST_FILE = Coordinators/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Coordinators/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +553,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9H5P3R5C2;
-				INFOPLIST_FILE = Coordinators/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Coordinators/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
